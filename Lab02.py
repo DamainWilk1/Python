@@ -2,11 +2,11 @@
 """
 Created on Thu Mar 21 19:37:30 2024
 
-@author: Damian
+@author: Damian Wilk 14689
 """
 
 # %%
-#ZAdanie 1
+#DamianWilk1
 figures = ['prostokat' , 'trojkat' , 'kolo']
 
 input_figure = input('Podaj figure: ')
@@ -28,7 +28,7 @@ elif input_figure == 'kolo':
         print(f'{(int(parameters[0])/2)**2 * 3.14}')
         
 # %%
-
+#DamianWilk2
 #[2pkt] Zdefiniuj słownik, którego wartościami będą wydatki na życie w ostatnich kilku miesiącach, a kluczami nazwy miesięcy. Wyznacz i wyświetl wartość minimalną, maksymalną, sumę i wartość średnią (wykonaj odpowiednie operacje na
 #liście wartości). Sprawdź czy kwota za ostatni miesiąc (nie istnieje prosty sposób na “automatyczne” wybranie ostatniego miesiąca ze słownika, odwołaj się po prostu do nazwy) przekracza wartość średnią - jeśli tak, to wyświetl tekst
 #ostrzeżenia “zacznij oszczędzać”, a jeśli nie, informację “jesteś bezpieczny”.
@@ -52,7 +52,7 @@ else:
     print('Jesteś bezpieczny')
     
 # %%
-#Zadanie 3
+#DamianWilk3
 def validate_date(date_str):
     try:
         day, month, year = map(int, date_str.split('-'))
